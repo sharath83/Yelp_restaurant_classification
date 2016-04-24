@@ -5,9 +5,12 @@ Yelp_image_classification.ipynb program extracts features from user submitted im
 Paper: Very Deep Convolutional Networks for Large-Scale Image Recognition K. Simonyan, A. Zisserman
 arXiv:1409.1556
 
-#VGG16 model - ILSVRC - 2014 competition
-#Mean = [103.909, 116.779, 123.68]
-#BGR format
+VGGNet details:
+VGG16 model - ILSVRC - 2014 competition
+Mean = [103.909, 116.779, 123.68]
+BGR format
+You can find the model weights file in the below link:
+https://drive.google.com/file/d/0Bz7KyqmuGsilT0J5dmRCM0ROVHc/view?usp=sharing
 
 I have tried to extract hidden layer activations from different layers of the network for every image and 
 averaged the activations of all images belong to one restaurant. I have used the averaged activation values as features for restaurants.
